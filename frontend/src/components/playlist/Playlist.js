@@ -24,7 +24,7 @@ const Playlist = () => {
 
       try {
         const data = await fetch(
-          "https://playlist-pal.duckdns.org/backend/api/v1/auth/getplayLists",
+          "https://playlistpal.onrender.com/api/v1/auth/getplayLists",
           {
             method: "GET",
             headers: {
