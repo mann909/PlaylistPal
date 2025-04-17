@@ -41,7 +41,7 @@ const useNewRelease = () => {
           albumUrls.map(async (link) => {
          
 
-            const jiosaavnResponse = await axios.get(`https://jiosaavnapi-0w6h.onrender.comresult/?query=${link}`);
+            const jiosaavnResponse = await axios.get(`https://jiosaavnapi-0w6h.onrender.com/result/?query=${link}`);
 
 
            
